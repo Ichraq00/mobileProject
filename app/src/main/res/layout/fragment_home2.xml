@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/image3"
+    tools:context=".HomeFragment2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/gastro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="600dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Gastronomic Community"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"></TextView>
+    <ImageView
+        android:id="@+id/rectangle30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle30"
+        app:layout_constraintTop_toBottomOf="@+id/gastro"
+        android:foregroundGravity="center_horizontal"
+        tools:ignore="MissingConstraints"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I loved the frensh's food"
+        app:layout_constraintStart_toEndOf="@+id/user1"
+        app:layout_constraintTop_toTopOf="@id/rectangle30"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IC"
+        android:gravity="center"
+        android:background="@drawable/ellipse5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="@+id/rectangle30"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/rectangle31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle30"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle30"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <TextView
+        android:id="@+id/user2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ko"
+        android:gravity="center"
+        android:background="@drawable/ellipse5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="@+id/rectangle31"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I loved the frensh's food"
+        app:layout_constraintStart_toEndOf="@+id/user2"
+        app:layout_constraintTop_toTopOf="@id/rectangle31"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/rectangle32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle30"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle31"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <TextView
+        android:id="@+id/user3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EI"
+        android:gravity="center"
+        android:background="@drawable/ellipse5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="@+id/rectangle32"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I loved the frensh's food"
+        app:layout_constraintStart_toEndOf="@+id/user3"
+        app:layout_constraintTop_toTopOf="@id/rectangle32"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textedit"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:background="#D8B9B6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="200dp"
+        android:queryHint="Comment"
+
+        tools:ignore="MissingConstraints"></EditText>
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:src="@drawable/paper_plane"
+        app:layout_constraintEnd_toEndOf="@+id/textedit"
+        app:layout_constraintTop_toTopOf="@+id/textedit"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/user4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YE"
+        android:gravity="center"
+        android:background="@drawable/ellipse5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle32"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

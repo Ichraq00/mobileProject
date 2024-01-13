@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="frame_layout" type="id" />
+    <item name="frame_layout1" type="id" />
+    <item name="centralImage" type="id"></item>
+    <item name="iconWithBackground2" type="id" />
+    <item name="iconWithBackground1" type="id" />
+    <item name="iconWithBackground3" type="id" />
+    <item name="imageView4" type="id" />
+    <item name="imageView5" type="id" />
+    <item name="imageView7" type="id" />
+    <item name="iconTopLeft2" type="id" />
+    <item name="Image" type="id" />
+</resources>

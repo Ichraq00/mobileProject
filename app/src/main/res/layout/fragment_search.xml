@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="654dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#21110F"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Confirm"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/leftImageView"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="52dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout7"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:hint="@string/select"
+        android:textColorHint="@color/white"
+        app:boxCollapsedPaddingTop="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/leftImageView"
+
+        android:layout_marginTop="100dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/leftImageView"
+            android:fontFamily="@font/akaya_telivigala"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

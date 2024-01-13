@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image3"
+    app:circularflow_angles="0"
+    app:circularflow_defaultRadius="50dp"
+    tools:context=".SearchFragment1">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="131dp"
+        android:layout_height="456dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fo"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/fo"
+        android:layout_width="287dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/image18"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="@string/moroccan_cuisine"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <View
+        android:id="@+id/myRectangleView1"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:background="@drawable/redrectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@id/fo"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imagerepas1"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/maroc_pouletroti"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView1"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView1"
+        app:layout_constraintTop_toTopOf="@+id/myRectangleView1"
+        />
+
+    <TextView
+        android:id="@+id/titrerepas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poulet Roti"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView1"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView1"
+        app:layout_constraintTop_toBottomOf="@+id/imagerepas1"
+        android:textStyle="italic"
+        />
+
+    <View
+        android:id="@+id/myRectangleView4"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:background="@drawable/redrectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myRectangleView2"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <ImageView
+        android:id="@+id/imagerepas4"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/maroc_bissara"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView4"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView4"
+        app:layout_constraintTop_toTopOf="@+id/myRectangleView4"
+        />
+
+    <TextView
+        android:id="@+id/titrerepas4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bissara"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView4"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView4"
+        app:layout_constraintTop_toBottomOf="@+id/imagerepas4"
+        android:textStyle="italic"
+        />
+
+    <View
+        android:id="@+id/myRectangleView2"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:background="@drawable/greenrectangle"
+        app:layout_constraintTop_toBottomOf="@+id/fo"
+        android:layout_marginTop="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imagerepas2"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/maroc_couscous"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView2"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/myRectangleView2"
+        />
+
+    <TextView
+        android:id="@+id/titrerepas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Couscous"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView2"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView2"
+        app:layout_constraintTop_toBottomOf="@+id/imagerepas2"
+        android:textStyle="italic"
+        />
+
+    <View
+        android:id="@+id/myRectangleView3"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:background="@drawable/greenrectangle"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/myRectangleView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imagerepas3"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/maroc_tajine"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView3"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView3"
+        app:layout_constraintTop_toTopOf="@+id/myRectangleView3"
+        />
+
+    <TextView
+        android:id="@+id/titrerepas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tajine"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/myRectangleView3"
+        app:layout_constraintStart_toStartOf="@+id/myRectangleView3"
+        app:layout_constraintTop_toBottomOf="@+id/imagerepas3"
+        android:textStyle="italic"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
